@@ -14,10 +14,10 @@ const Display = ({ array }: any) => {
                     data.map((val: any) =>
                     (
                         <div className={styles.cards}>
-                            <h3>Name of the User : {val?.name[0].toUpperCase()+val?.name.substr(1)}</h3>
-                            <h3>Email : {val?.email}</h3>
-                            <h3>Date of Birth : {val?.DOB}</h3>
-                            <h3>Mobile Number : {val?.Mobile}</h3>
+                            <h3 ><span className={styles.span}>Name of the User : </span>{val?.name}</h3>
+                            <h3><span className={styles.span}>Email : </span>{val?.email}</h3>
+                            <h3><span className={styles.span}>Date of Birth : </span>{val?.DOB}</h3>
+                            <h3><span className={styles.span}>Mobile Number : </span>{val?.Mobile}</h3>
                         </div>
                     ))
                 }
