@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from './index.module.scss';
+import styles from '../FormPage/index.module.scss';
 import Display from '../../Components/Display';
 
 export const FormData = () => {
