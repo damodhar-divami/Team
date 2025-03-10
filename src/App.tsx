@@ -1,17 +1,12 @@
-// import './App.css';
-import { BrowserRouter, Routes } from 'react-router-dom';
-import HeaderComponent from './Components/headerComponent';
+import './App.css'
+import { FormData } from './Pages/FormPage'
+
 function App() {
 
   return (
-    <><BrowserRouter>
-    <HeaderComponent/>
-    <Routes>
-      {/* <Route path = "/" element ={}/> */}
-      </Routes>
-      </BrowserRouter>
+    <>
+      <FormData/>
     </>
-    
   )
 }
 
