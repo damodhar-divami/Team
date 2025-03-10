@@ -14,7 +14,7 @@ const Display = ({ array }: any) => {
                     data.map((val: any) =>
                     (
                         <div className={styles.cards}>
-                            <h3>Name of the User : {val?.name}</h3>
+                            <h3>Name of the User : {val?.name[0].toUpperCase()+val?.name.substr(1)}</h3>
                             <h3>Email : {val?.email}</h3>
                             <h3>Date of Birth : {val?.DOB}</h3>
                             <h3>Mobile Number : {val?.Mobile}</h3>
