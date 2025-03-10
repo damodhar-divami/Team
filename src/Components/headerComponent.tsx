@@ -12,7 +12,6 @@ export default function HeaderComponent() {
     }
   return(
     <div className={styles.header}>
-     {/* <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> */}
       <button onClick={handleFormButton} className={styles.form} type='button'>form</button>
       <button onClick={handleDisplayButton} className={styles.display} type='button'>display</button>
     </div>
