@@ -1,11 +1,10 @@
 import './App.css'
-import { FormData } from './Pages/FormPage'
-
+import Footer from './Components/Footer'
 function App() {
 
   return (
     <>
-      <FormData/>
+       <Footer/>
     </>
   )
 }
